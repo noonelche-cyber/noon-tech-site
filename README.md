@@ -39,7 +39,7 @@ Ouvrir les URL HTTPS avec un navigateur ou un Custom Tab. Par exemple : https://
 
 ## Langues du site
 
-Sélecteur français / espagnol / anglais sur chaque page. Le français est affiché par défaut. Le paramètre ?lang=fr, ?lang=es ou ?lang=en conserve le choix dans les liens, sans cookie ni stockage local. Les traductions se trouvent dans assets/i18n.js ; le contenu anglais reste accessible sans JavaScript.
+Sélecteur français / espagnol / anglais / italien / néerlandais / allemand sur chaque page. Le français est affiché par défaut. Le paramètre ?lang=fr, ?lang=es, ?lang=en, ?lang=it, ?lang=nl ou ?lang=de conserve le choix dans les liens, sans cookie ni stockage local. Les traductions se trouvent dans assets/i18n.js et assets/i18n-extra.js ; le contenu anglais reste accessible sans JavaScript.
 
 Les compteurs distinguent interface et contenu bilingue : ¡JODER! propose 6 langues d’interface ; DREK! en propose 6 dans son prototype ; VOSOTROS et TRAMPA contiennent le français et l’espagnol. Les langues sont détaillées dans apps.json et sur les pages des applications.
 
