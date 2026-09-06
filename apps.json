@@ -1,12 +1,21 @@
 [
   {
     "id": "joder",
-    "name": "JODER!",
+    "name": "¡JODER!",
     "language": "Spanish · Real talk",
     "tag": "Español que no te enseñan en clase.",
     "description": "The words, expressions and attitude you won’t find in a textbook.",
     "image": "joder.png",
-    "store": null
+    "store": null,
+    "includedLanguages": [
+      "fr",
+      "en",
+      "es",
+      "de",
+      "it",
+      "nl"
+    ],
+    "languageScope": "interface"
   },
   {
     "id": "vosotros",
@@ -15,7 +24,12 @@
     "tag": "Spanish conjugation, without the bullshit.",
     "description": "Make Spanish verbs part of your everyday life. One conjugation at a time.",
     "image": "vosotros.png",
-    "store": null
+    "store": null,
+    "includedLanguages": [
+      "fr",
+      "es"
+    ],
+    "languageScope": "bilingual content"
   },
   {
     "id": "drek",
@@ -24,7 +38,16 @@
     "tag": "Yiddish. The useful words first.",
     "description": "A little language. A lot of character. Discover the words that say it best.",
     "image": null,
-    "store": null
+    "store": null,
+    "includedLanguages": [
+      "fr",
+      "en",
+      "es",
+      "de",
+      "it",
+      "nl"
+    ],
+    "languageScope": "interface"
   },
   {
     "id": "trampa",
@@ -33,6 +56,11 @@
     "tag": "Las trampas del español.",
     "description": "Spot false friends, confusing sounds and regional meanings. Learn what Spanish really means, before it catches you out.",
     "image": "trampa.png",
-    "store": null
+    "store": null,
+    "includedLanguages": [
+      "fr",
+      "es"
+    ],
+    "languageScope": "bilingual content"
   }
 ]

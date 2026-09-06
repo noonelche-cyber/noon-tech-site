@@ -36,3 +36,11 @@ Les icônes JODER!, VOSOTROS et TRAMPA proviennent des applications NOON Tech. L
 ## Intégration Android
 
 Ouvrir les URL HTTPS avec un navigateur ou un Custom Tab. Par exemple : https://noonelche-cyber.github.io/noon-tech-site/about/
+
+## Langues du site
+
+Sélecteur français / espagnol / anglais sur chaque page. Le français est affiché par défaut. Le paramètre ?lang=fr, ?lang=es ou ?lang=en conserve le choix dans les liens, sans cookie ni stockage local. Les traductions se trouvent dans assets/i18n.js ; le contenu anglais reste accessible sans JavaScript.
+
+Les compteurs distinguent interface et contenu bilingue : ¡JODER! propose 6 langues d’interface ; DREK! en propose 6 dans son prototype ; VOSOTROS et TRAMPA contiennent le français et l’espagnol. Les langues sont détaillées dans apps.json et sur les pages des applications.
+
+À chaque modification des styles ou traductions, changer leur paramètre de version dans les pages HTML afin d’éviter une ancienne copie en cache.
