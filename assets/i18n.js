@@ -51,6 +51,8 @@
     rows.push([`The policy for ${name} is not yet published. Please`,`La politique de ${name} n’est pas encore publiée. Merci de`,`La política de ${name} todavía no está publicada. Puedes`]);
   }
   const dictionary = new Map(rows.map(r=>[r[0],{en:r[0],fr:r[1],es:r[2]}]));
+  for(const r of window.NOON_EXTRA || []) dictionary.set(r[0], {...dictionary.get(r[0]),en:r[0],it:r[1],nl:r[2],de:r[3]});
+  for(const r of window.NOON_JODER || []) dictionary.set(r[0], {en:r[0],fr:r[1],es:r[2],it:r[3],nl:r[4],de:r[5]});
   dictionary.get('Español que no te enseñan en clase.').en = 'Spanish they don’t teach you in class.';
   dictionary.get('Las trampas del español.').en = 'The traps of Spanish.';
   const nodes = [];
@@ -60,7 +62,7 @@
   const title=document.title;
   const links=[...document.querySelectorAll('a[href]')].map(e=>[e,e.getAttribute('href')]);
   const select=document.querySelector('#site-language');
-  function translate(s,lang){const k=s.trim();return dictionary.has(k)?s.replace(k,dictionary.get(k)[lang]):s;}
+  function translate(s,lang){const k=s.trim();return dictionary.has(k)?s.replace(k,dictionary.get(k)[lang] || dictionary.get(k).en):s;}
   function apply(lang){
     document.documentElement.lang=lang;select.value=lang;
     for(const [n,s] of nodes)n.textContent=translate(s,lang);
@@ -71,7 +73,7 @@
     document.querySelectorAll('.store a').forEach(a=>{const key=a.href.includes('play.google.com')?'Get it on Google Play ↗':'Download on the App Store ↗';a.textContent=translate(key,lang)});
   }
   const requested=new URL(location.href).searchParams.get('lang');
-  let language=['fr','es','en'].includes(requested)?requested:'fr';apply(language);
+  let language=['fr','es','en','it','nl','de'].includes(requested)?requested:'fr';apply(language);
   select.addEventListener('change',()=>{language=select.value;const u=new URL(location.href);u.searchParams.set('lang',language);history.replaceState(null,'',u);apply(language)});
   document.addEventListener('store-ready',()=>apply(language));
 })();
