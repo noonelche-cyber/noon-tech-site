@@ -13,9 +13,9 @@ GitHub Pages : Deploy from a branch, main, /(root). Les modifications sur main s
 Ajouter à l’URL de base :
 - about/ : présentation de NOON Tech
 - contact/ : contact et support
-- apps/joder/, apps/vosotros/, apps/drek/ : présentation et téléchargement
+- apps/joder/, apps/vosotros/, apps/drek/, apps/trampa/ : présentation et téléchargement
 - privacy/ : confidentialité du site
-- privacy/joder/, privacy/vosotros/, privacy/drek/ : confidentialité de chaque app
+- privacy/joder/, privacy/vosotros/, privacy/drek/, privacy/trampa/ : confidentialité de chaque app
 
 Les politiques des apps ne sont pas encore publiées. Compléter ces pages avec les pratiques réelles de chaque application avant de les soumettre aux Stores.
 
@@ -31,7 +31,7 @@ Dans apps.json, remplacer store: null par une URL HTTPS Google Play ou App Store
 - assets/store.js : affichage des boutons Store
 - about/, contact/, privacy/ : pages éditoriales
 
-Les icônes JODER! et VOSOTROS proviennent des applications NOON Tech. Les marques typographiques NOON Tech et DREK! peuvent être remplacées par leurs futurs assets.
+Les icônes JODER!, VOSOTROS et TRAMPA proviennent des applications NOON Tech. Les marques typographiques NOON Tech et DREK! peuvent être remplacées par leurs futurs assets.
 
 ## Intégration Android
 

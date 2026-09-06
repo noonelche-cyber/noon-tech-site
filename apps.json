@@ -25,5 +25,14 @@
     "description": "A little language. A lot of character. Discover the words that say it best.",
     "image": null,
     "store": null
+  },
+  {
+    "id": "trampa",
+    "name": "TRAMPA",
+    "language": "Spanish · False friends",
+    "tag": "Las trampas del español.",
+    "description": "Spot false friends, confusing sounds and regional meanings. Learn what Spanish really means, before it catches you out.",
+    "image": "trampa.png",
+    "store": null
   }
 ]
