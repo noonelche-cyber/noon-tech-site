@@ -1,0 +1,29 @@
+[
+  {
+    "id": "joder",
+    "name": "JODER!",
+    "language": "Spanish · Real talk",
+    "tag": "Español que no te enseñan en clase.",
+    "description": "The words, expressions and attitude you won’t find in a textbook.",
+    "image": "joder.png",
+    "store": null
+  },
+  {
+    "id": "vosotros",
+    "name": "VOSOTROS",
+    "language": "Spanish · Conjugation",
+    "tag": "Spanish conjugation, without the bullshit.",
+    "description": "Make Spanish verbs part of your everyday life. One conjugation at a time.",
+    "image": "vosotros.png",
+    "store": null
+  },
+  {
+    "id": "drek",
+    "name": "DREK!",
+    "language": "Yiddish · Coming soon",
+    "tag": "Yiddish. The useful words first.",
+    "description": "A little language. A lot of character. Discover the words that say it best.",
+    "image": null,
+    "store": null
+  }
+]
