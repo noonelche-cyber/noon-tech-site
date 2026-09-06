@@ -49,3 +49,142 @@ window.NOON_JODER = [
 ['Curious ears. Better judgement.','L’oreille curieuse. Le mot juste.','Oídos curiosos. Más criterio.','Orecchie curiose. Più consapevolezza.','Nieuwsgierige oren. Meer inzicht.','Neugierige Ohren. Mehr Sprachgefühl.'],
 ['For learners who want to understand films, conversations and the Spanish that textbooks leave out. Knowing an expression does not mean using it everywhere: context comes first.','Pour celles et ceux qui veulent comprendre les films, les conversations et l’espagnol que les manuels laissent de côté. Connaître une expression ne veut pas dire l’utiliser partout : le contexte passe avant tout.','Para quienes quieren entender películas, conversaciones y el español que los libros dejan fuera. Conocer una expresión no significa usarla en todas partes: el contexto es lo primero.','Per chi vuole capire film, conversazioni e lo spagnolo che i libri trascurano. Conoscere un’espressione non significa usarla ovunque: il contesto viene prima di tutto.','Voor wie films, gesprekken en het Spaans buiten de leerboeken wil begrijpen. Een uitdrukking kennen betekent niet dat je die overal gebruikt: de context komt eerst.','Für alle, die Filme, Gespräche und das Spanisch verstehen möchten, das Lehrbücher auslassen. Einen Ausdruck zu kennen heißt nicht, ihn überall zu verwenden: Der Kontext steht an erster Stelle.']
 ];
+
+window.NOON_JODER.push(...[
+  [
+    "All danger levels, from 1 to 5",
+    "Tous les niveaux de danger, de 1 à 5",
+    "Todos los niveles de peligro, del 1 al 5",
+    "Tutti i livelli di pericolo, da 1 a 5",
+    "Alle gevaarniveaus, van 1 tot 5",
+    "Alle Gefahrenstufen von 1 bis 5"
+  ],
+  [
+    "Complete cards: meaning, context, examples and related expressions",
+    "Fiches complètes : sens, contexte, exemples et expressions apparentées",
+    "Fichas completas: significado, contexto, ejemplos y expresiones relacionadas",
+    "Schede complete: significato, contesto, esempi ed espressioni correlate",
+    "Volledige fiches: betekenis, context, voorbeelden en verwante uitdrukkingen",
+    "Vollständige Karten: Bedeutung, Kontext, Beispiele und verwandte Ausdrücke"
+  ],
+  [
+    "Spanish search, pronunciation and favorites",
+    "Recherche en espagnol, prononciation et favoris",
+    "Búsqueda en español, pronunciación y favoritos",
+    "Ricerca in spagnolo, pronuncia e preferiti",
+    "Zoeken in het Spaans, uitspraak en favorieten",
+    "Spanische Suche, Aussprache und Favoriten"
+  ],
+  [
+    "4 games + Insult me, with JODERS progress",
+    "4 jeux + Insulte-moi, avec progression en JODERS",
+    "4 juegos + Insúltame, con progreso en JODERS",
+    "4 giochi + Insultami, con progressi in JODERS",
+    "4 spellen + Beledig mij, met JODERS-voortgang",
+    "4 Spiele + Beleidige mich, mit JODERS-Fortschritt"
+  ],
+  [
+    "Everything included in ¡JODER!",
+    "Toutes les fonctions de ¡JODER!",
+    "Todo lo incluido en ¡JODER!",
+    "Tutto ciò che è incluso in ¡JODER!",
+    "Alles wat in ¡JODER! zit",
+    "Alles aus ¡JODER!"
+  ],
+  [
+    "Search in Spanish and in the user’s language",
+    "Recherche en espagnol et dans la langue de l’utilisateur",
+    "Búsqueda en español y en el idioma del usuario",
+    "Ricerca in spagnolo e nella lingua dell’utente",
+    "Zoeken in het Spaans en in de taal van de gebruiker",
+    "Suche auf Spanisch und in der Sprache des Benutzers"
+  ],
+  [
+    "Games and Insult me with the full catalogue",
+    "Jeux et Insulte-moi avec le catalogue complet",
+    "Juegos e Insúltame con el catálogo completo",
+    "Giochi e Insultami con il catalogo completo",
+    "Spellen en Beledig mij met de volledige catalogus",
+    "Spiele und Beleidige mich mit dem vollständigen Katalog"
+  ],
+  [
+    "Widget filtered by level, category and region",
+    "Widget filtrable par niveau, catégorie et région",
+    "Widget filtrable por nivel, categoría y región",
+    "Widget filtrabile per livello, categoria e regione",
+    "Widget filterbaar op niveau, categorie en regio",
+    "Widget nach Stufe, Kategorie und Region filterbar"
+  ],
+  [
+    "Next insult on demand in the widget",
+    "Insulte suivante à la demande dans le widget",
+    "Siguiente insulto a petición en el widget",
+    "Insulto successivo su richiesta nel widget",
+    "Volgende belediging op aanvraag in de widget",
+    "Nächste Beleidigung auf Wunsch im Widget"
+  ],
+  [
+    "Hide expressions from the feed, games, random selections, widgets and notifications",
+    "Masquer des expressions du flux, des jeux, de l’aléatoire, des widgets et des notifications",
+    "Oculta expresiones del flujo, los juegos, las selecciones aleatorias, los widgets y las notificaciones",
+    "Nascondi espressioni dal flusso, dai giochi, dalle estrazioni casuali, dai widget e dalle notifiche",
+    "Verberg uitdrukkingen in de stroom, spellen, willekeurige keuzes, widgets en meldingen",
+    "Ausdrücke aus Feed, Spielen, Zufallsauswahlen, Widgets und Benachrichtigungen ausblenden"
+  ],
+  [
+    "Two versions. Your choice.",
+    "Deux versions. À toi de choisir.",
+    "Dos versiones. Tú eliges.",
+    "Due versioni. Scegli tu.",
+    "Twee versies. Jij kiest.",
+    "Zwei Versionen. Du entscheidest."
+  ],
+  [
+    "Free version",
+    "Version gratuite",
+    "Versión gratuita",
+    "Versione gratuita",
+    "Gratis versie",
+    "Kostenlose Version"
+  ],
+  [
+    "Full version",
+    "Version complète",
+    "Versión completa",
+    "Versione completa",
+    "Volledige versie",
+    "Vollversion"
+  ],
+  [
+    "A selection of essential expressions",
+    "Une sélection d’expressions essentielles",
+    "Una selección de expresiones esenciales",
+    "Una selezione di espressioni essenziali",
+    "Een selectie essentiële uitdrukkingen",
+    "Eine Auswahl grundlegender Ausdrücke"
+  ],
+  [
+    "The full catalogue from Spain and Latin America",
+    "Le catalogue complet d’Espagne et d’Amérique latine",
+    "El catálogo completo de España y América Latina",
+    "Il catalogo completo di Spagna e America Latina",
+    "De volledige catalogus uit Spanje en Latijns-Amerika",
+    "Der vollständige Katalog aus Spanien und Lateinamerika"
+  ],
+  [
+    "Standard Android widget",
+    "Widget Android standard",
+    "Widget estándar de Android",
+    "Widget Android standard",
+    "Standaard Android-widget",
+    "Standard-Android-Widget"
+  ],
+  [
+    "Both versions include the six interface languages. Download links and the price of ¡JODER!+ will be shown when available.",
+    "Les deux versions incluent les six langues d’interface. Les liens de téléchargement et le prix de ¡JODER!+ seront affichés dès qu’ils seront disponibles.",
+    "Ambas versiones incluyen los seis idiomas de interfaz. Los enlaces de descarga y el precio de ¡JODER!+ se mostrarán cuando estén disponibles.",
+    "Entrambe le versioni includono le sei lingue di interfaccia. I link per il download e il prezzo di ¡JODER!+ saranno indicati quando disponibili.",
+    "Beide versies bieden de zes interfacetalen. Downloadlinks en de prijs van ¡JODER!+ verschijnen zodra ze beschikbaar zijn.",
+    "Beide Versionen enthalten die sechs Oberflächensprachen. Download-Links und der Preis von ¡JODER!+ werden angezeigt, sobald sie verfügbar sind."
+  ]
+]);
