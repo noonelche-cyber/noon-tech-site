@@ -44,3 +44,8 @@ Sélecteur français / espagnol / anglais / italien / néerlandais / allemand su
 Les compteurs distinguent interface et contenu bilingue : ¡JODER! propose 6 langues d’interface ; DREK! en propose 6 dans son prototype ; VOSOTROS et TRAMPA contiennent le français et l’espagnol. Les langues sont détaillées dans apps.json et sur les pages des applications.
 
 À chaque modification des styles ou traductions, changer leur paramètre de version dans les pages HTML afin d’éviter une ancienne copie en cache.
+
+## Mise à jour ¡JODER! — 14 septembre 2026
+
+La présentation distingue la version Android en test (0.2.0), le portage iOS en préparation et les trois chantiers V3 (exemples/traductions, audio expressif et achat cadeau). Le comparatif réserve recherche en langue utilisateur, masquage, widget filtré, Suivant et ¡TAP! à ¡JODER!+. Les nouvelles chaînes sont traduites dans les six langues dans assets/i18n-extra.js. Aucun lien Store ni prix n’est inventé ; store reste null.
+

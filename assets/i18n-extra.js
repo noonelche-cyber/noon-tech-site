@@ -188,3 +188,168 @@ window.NOON_JODER.push(...[
     "Beide Versionen enthalten die sechs Oberflächensprachen. Download-Links und der Preis von ¡JODER!+ werden angezeigt, sobald sie verfügbar sind."
   ]
 ]);
+
+// JODER development update: 14 September 2026. Planned V3 items are not shipped features.
+window.NOON_JODER.push(...[
+  [
+    "Spanish expressions, audio, games and an infinite rolodex. Learn the meaning, not just the words.",
+    "Expressions espagnoles, audio, jeux et rolodex infini. Apprends le sens, pas seulement les mots.",
+    "Expresiones españolas, audio, juegos y un rolodex infinito. Aprende el sentido, no solo las palabras.",
+    "Espressioni spagnole, audio, giochi e rolodex infinito. Impara il significato, non solo le parole.",
+    "Spaanse uitdrukkingen, audio, spellen en een eindeloze rolodex. Leer de betekenis, niet alleen de woorden.",
+    "Spanische Ausdrücke, Audio, Spiele und ein endloser Rolodex. Lerne die Bedeutung, nicht nur die Wörter."
+  ],
+  [
+    "Explore idiomatic and literal translations, examples, double meanings, related expressions and regional usage. Search in Spanish; ¡JODER!+ also searches translations in your language.",
+    "Explore les traductions idiomatiques et littérales, les exemples, les doubles sens, les expressions apparentées et les usages régionaux. Recherche en espagnol ; ¡JODER!+ cherche aussi dans les traductions de ta langue.",
+    "Explora traducciones idiomáticas y literales, ejemplos, dobles sentidos, expresiones relacionadas y usos regionales. Busca en español; ¡JODER!+ también busca en las traducciones de tu idioma.",
+    "Esplora traduzioni idiomatiche e letterali, esempi, doppi sensi, espressioni correlate e usi regionali. Cerca in spagnolo; ¡JODER!+ cerca anche nelle traduzioni nella tua lingua.",
+    "Ontdek idiomatische en letterlijke vertalingen, voorbeelden, dubbele betekenissen, verwante uitdrukkingen en regionaal gebruik. Zoek in het Spaans; ¡JODER!+ zoekt ook in vertalingen in jouw taal.",
+    "Entdecke idiomatische und wörtliche Übersetzungen, Beispiele, Doppeldeutigkeiten, verwandte Ausdrücke und regionale Verwendung. Suche auf Spanisch; ¡JODER!+ durchsucht auch Übersetzungen in deiner Sprache."
+  ],
+  [
+    "Save favourites as mini-cards. In ¡JODER!+, hide unwanted expressions and restore them individually or all at once from their dedicated settings page.",
+    "Enregistre tes favoris en mini-fiches. Dans ¡JODER!+, masque les expressions indésirables et réactive-les une par une ou toutes à la fois depuis leur page dédiée dans la configuration.",
+    "Guarda favoritos en minifichas. En ¡JODER!+, oculta expresiones y reactívalas una a una o todas a la vez desde su página de configuración.",
+    "Salva i preferiti in mini-schede. In ¡JODER!+, nascondi le espressioni indesiderate e ripristinale singolarmente o tutte insieme dalla pagina dedicata nelle impostazioni.",
+    "Bewaar favorieten als mini-kaarten. Verberg in ¡JODER!+ ongewenste uitdrukkingen en herstel ze afzonderlijk of allemaal via hun eigen instellingenpagina.",
+    "Speichere Favoriten als Mini-Karten. Blende in ¡JODER!+ unerwünschte Ausdrücke aus und stelle sie einzeln oder gemeinsam auf ihrer eigenen Einstellungsseite wieder her."
+  ],
+  [
+    "Two Android widgets: standard in both editions, filtered in ¡JODER!+. Customise theme, transparency, audio and refresh interval; Plus adds the Next button and filters by level, category, region and search.",
+    "Deux widgets Android : standard dans les deux éditions, filtré dans ¡JODER!+. Règle le thème, la transparence, l’audio et le rythme ; Plus ajoute le bouton Suivant et les filtres par niveau, catégorie, région et recherche.",
+    "Dos widgets de Android: estándar en ambas ediciones y filtrado en ¡JODER!+. Ajusta tema, transparencia, audio e intervalo; Plus añade Siguiente y filtros por nivel, categoría, región y búsqueda.",
+    "Due widget Android: standard in entrambe le edizioni e filtrato in ¡JODER!+. Regola tema, trasparenza, audio e intervallo; Plus aggiunge Avanti e filtri per livello, categoria, regione e ricerca.",
+    "Twee Android-widgets: standaard in beide edities, gefilterd in ¡JODER!+. Pas thema, transparantie, audio en interval aan; Plus voegt Volgende en filters op niveau, categorie, regio en zoekopdracht toe.",
+    "Zwei Android-Widgets: Standard in beiden Editionen, gefiltert in ¡JODER!+. Passe Thema, Transparenz, Audio und Intervall an; Plus ergänzt Weiter und Filter nach Stufe, Kategorie, Region und Suche."
+  ],
+  [
+    "Mini-cards or infinite rolodex",
+    "Mini-fiches ou rolodex infini",
+    "Minifichas o rolodex infinito",
+    "Mini-schede o rolodex infinito",
+    "Mini-kaarten of eindeloze rolodex",
+    "Mini-Karten oder endloser Rolodex"
+  ],
+  [
+    "Switch views without losing your filters. Roll cards up or down, choose Another for a random expression and open the full card in a floating window. Reset clears searches and filters without changing your view.",
+    "Change de vue sans perdre tes filtres. Fais rouler les fiches vers le haut ou le bas, choisis Autre pour une expression aléatoire et ouvre la fiche complète en fenêtre flottante. Reset efface les recherches et filtres sans changer la vue.",
+    "Cambia de vista sin perder los filtros. Haz rodar las fichas arriba o abajo, pulsa Otro para una expresión aleatoria y abre la ficha completa en una ventana flotante. Reset borra búsquedas y filtros sin cambiar la vista.",
+    "Cambia vista senza perdere i filtri. Fai scorrere le schede su o giù, scegli Altro per un’espressione casuale e apri la scheda completa in una finestra flottante. Reset cancella ricerche e filtri senza cambiare vista.",
+    "Wissel van weergave zonder je filters te verliezen. Rol kaarten omhoog of omlaag, kies Andere voor een willekeurige uitdrukking en open de volledige kaart in een zwevend venster. Reset wist zoekopdrachten en filters zonder de weergave te veranderen.",
+    "Wechsle die Ansicht, ohne Filter zu verlieren. Rolle Karten nach oben oder unten, wähle Andere für einen Zufallsausdruck und öffne die vollständige Karte in einem schwebenden Fenster. Reset löscht Suchen und Filter, ohne die Ansicht zu ändern."
+  ],
+  [
+    "¡TAP! — Spanish with impact",
+    "¡TAP! — L’espagnol qui percute",
+    "¡TAP! — Español con impacto",
+    "¡TAP! — Lo spagnolo che colpisce",
+    "¡TAP! — Spaans met impact",
+    "¡TAP! — Spanisch mit Wirkung"
+  ],
+  [
+    "In ¡JODER!+ on Android, a detected tap against the table triggers a random insult with audio and a cracked-screen effect. Enable it and adjust sensitivity in settings. Background mode on compatible devices requires permission to display over other apps.",
+    "Dans ¡JODER!+ sur Android, un coup détecté sur la table déclenche une insulte aléatoire avec audio et effet d’écran brisé. Active-le et règle la sensibilité dans la configuration. Le mode hors appli, sur appareils compatibles, demande l’autorisation de s’afficher par-dessus les autres applications.",
+    "En ¡JODER!+ para Android, un golpe detectado contra la mesa activa un insulto aleatorio con audio y efecto de pantalla rota. Actívalo y ajusta la sensibilidad en configuración. El modo fuera de la app, en dispositivos compatibles, requiere permiso para mostrarse sobre otras aplicaciones.",
+    "In ¡JODER!+ su Android, un colpo rilevato sul tavolo attiva un insulto casuale con audio ed effetto schermo rotto. Attivalo e regola la sensibilità nelle impostazioni. La modalità fuori dall’app sui dispositivi compatibili richiede il permesso di apparire sopra altre app.",
+    "In ¡JODER!+ op Android activeert een gedetecteerde tik tegen de tafel een willekeurige belediging met audio en een gebarsten-scherm-effect. Activeer het en stel de gevoeligheid in. Achtergrondmodus op geschikte apparaten vereist toestemming om boven andere apps te verschijnen.",
+    "In ¡JODER!+ auf Android löst ein erkannter Stoß gegen den Tisch eine zufällige Beleidigung mit Audio und einem Bildschirmbruch-Effekt aus. Aktiviere die Funktion und stelle die Empfindlichkeit ein. Der Hintergrundmodus auf geeigneten Geräten benötigt die Berechtigung zur Anzeige über anderen Apps."
+  ],
+  [
+    "Theme, transparency, audio and refresh settings for the widget",
+    "Thème, transparence, audio et rythme du widget",
+    "Tema, transparencia, audio e intervalo del widget",
+    "Tema, trasparenza, audio e intervallo del widget",
+    "Thema, transparantie, audio en widgetinterval",
+    "Thema, Transparenz, Audio und Wechselintervall des Widgets"
+  ],
+  [
+    "¡TAP! on Android, with sensitivity and optional background mode on compatible devices",
+    "¡TAP! sur Android, avec sensibilité et mode hors appli facultatif sur appareils compatibles",
+    "¡TAP! en Android, con sensibilidad y modo fuera de la app opcional en dispositivos compatibles",
+    "¡TAP! su Android, con sensibilità e modalità fuori dall’app facoltativa sui dispositivi compatibili",
+    "¡TAP! op Android, met gevoeligheid en optionele achtergrondmodus op geschikte apparaten",
+    "¡TAP! auf Android, mit Empfindlichkeit und optionalem Hintergrundmodus auf geeigneten Geräten"
+  ],
+  [
+    "Restore hidden expressions individually or all at once in settings",
+    "Réactiver les expressions masquées individuellement ou toutes à la fois dans la configuration",
+    "Reactivar expresiones ocultas una a una o todas a la vez en configuración",
+    "Ripristinare espressioni nascoste singolarmente o tutte insieme nelle impostazioni",
+    "Verborgen uitdrukkingen afzonderlijk of allemaal herstellen in de instellingen",
+    "Ausgeblendete Ausdrücke einzeln oder gemeinsam in den Einstellungen wiederherstellen"
+  ],
+  [
+    "Current development version: 0.2.0",
+    "Version actuelle de développement : 0.2.0",
+    "Versión actual de desarrollo: 0.2.0",
+    "Versione attuale di sviluppo: 0.2.0",
+    "Huidige ontwikkelversie: 0.2.0",
+    "Aktuelle Entwicklungsversion: 0.2.0"
+  ],
+  [
+    "Android is in testing. The iPhone and iPad port is being prepared; native features still need validation on Apple devices. Store downloads are not yet available.",
+    "Android est en cours de test. Le portage iPhone et iPad se prépare ; les fonctions natives restent à valider sur appareils Apple. Les téléchargements sur les boutiques ne sont pas encore disponibles.",
+    "Android está en pruebas. Se prepara la versión para iPhone y iPad; las funciones nativas aún deben validarse en dispositivos Apple. Las descargas en las tiendas todavía no están disponibles.",
+    "Android è in fase di test. Il porting per iPhone e iPad è in preparazione; le funzioni native devono ancora essere validate sui dispositivi Apple. I download negli store non sono ancora disponibili.",
+    "Android wordt getest. De iPhone- en iPad-versie wordt voorbereid; native functies moeten nog op Apple-apparaten worden gevalideerd. Downloads via de stores zijn nog niet beschikbaar.",
+    "Android wird getestet. Die Portierung für iPhone und iPad wird vorbereitet; native Funktionen müssen noch auf Apple-Geräten geprüft werden. Store-Downloads sind noch nicht verfügbar."
+  ],
+  [
+    "Help in one place",
+    "Toute l’aide au même endroit",
+    "Toda la ayuda en un solo lugar",
+    "Tutto l’aiuto in un unico posto",
+    "Alle hulp op één plek",
+    "Die gesamte Hilfe an einem Ort"
+  ],
+  [
+    "About brings together the page guides. Help and the expression suggestion form open in floating windows over a blurred background. Tap the ¡JODER! logo for the side settings panel; themes, languages and voices highlight the current selection.",
+    "À propos regroupe les guides des pages. L’aide et le formulaire de proposition d’insulte s’ouvrent en fenêtres flottantes sur fond flouté. Touche le logo ¡JODER! pour la configuration latérale ; thèmes, langues et voix mettent en évidence la sélection active.",
+    "Acerca reúne las guías de las páginas. La ayuda y el formulario para proponer un insulto se abren en ventanas flotantes sobre fondo desenfocado. Toca el logo ¡JODER! para la configuración lateral; temas, idiomas y voces resaltan la selección activa.",
+    "Informazioni raccoglie le guide delle pagine. L’aiuto e il modulo per proporre un insulto si aprono in finestre flottanti su sfondo sfocato. Tocca il logo ¡JODER! per le impostazioni laterali; temi, lingue e voci evidenziano la selezione attiva.",
+    "Over bundelt de paginagidsen. Hulp en het formulier om een belediging voor te stellen openen in zwevende vensters boven een vervaagde achtergrond. Tik op het ¡JODER!-logo voor het instellingenpaneel; thema’s, talen en stemmen markeren de actieve keuze.",
+    "Über bündelt die Seitenhilfen. Hilfe und Vorschlagsformular öffnen in schwebenden Fenstern vor unscharfem Hintergrund. Das ¡JODER!-Logo öffnet das seitliche Einstellungsfeld; Themen, Sprachen und Stimmen markieren die aktuelle Auswahl."
+  ],
+  [
+    "Planned for V3 — not available yet",
+    "Prévu pour la V3 — pas encore disponible",
+    "Previsto para V3 — aún no disponible",
+    "Previsto per V3 — non ancora disponibile",
+    "Gepland voor V3 — nog niet beschikbaar",
+    "Für V3 geplant — noch nicht verfügbar"
+  ],
+  [
+    "Expression-specific examples and a complete review of idiomatic translations",
+    "Exemples propres à chaque expression et revue complète des traductions idiomatiques",
+    "Ejemplos propios de cada expresión y revisión completa de las traducciones idiomáticas",
+    "Esempi specifici per ogni espressione e revisione completa delle traduzioni idiomatiche",
+    "Voorbeelden per uitdrukking en een volledige controle van idiomatische vertalingen",
+    "Ausdrucksspezifische Beispiele und vollständige Prüfung idiomatischer Übersetzungen"
+  ],
+  [
+    "New expressive ¡TAP! recordings, rather than artificial pitch changes",
+    "Nouveaux enregistrements expressifs de ¡TAP!, plutôt qu’un changement artificiel de tonalité",
+    "Nuevas grabaciones expresivas de ¡TAP!, en vez de cambios artificiales de tono",
+    "Nuove registrazioni espressive di ¡TAP!, anziché modifiche artificiali del tono",
+    "Nieuwe expressieve ¡TAP!-opnamen in plaats van kunstmatige toonhoogtewijzigingen",
+    "Neue expressive ¡TAP!-Aufnahmen statt künstlicher Tonhöhenänderungen"
+  ],
+  [
+    "Gift ¡JODER!+ to someone: a real paid gift, subject to a validated store purchase and activation process",
+    "Offrir ¡JODER!+ à quelqu’un : un vrai cadeau payant, sous réserve d’un parcours d’achat et d’activation validé par boutique",
+    "Regalar ¡JODER!+ a alguien: un regalo de pago real, sujeto a un proceso de compra y activación validado para cada tienda",
+    "Regalare ¡JODER!+ a qualcuno: un vero regalo a pagamento, subordinato a un percorso di acquisto e attivazione validato per ogni store",
+    "¡JODER!+ cadeau doen: een echt betaald cadeau, afhankelijk van een gevalideerd aankoop- en activatieproces per store",
+    "¡JODER!+ verschenken: ein echtes bezahltes Geschenk, vorbehaltlich eines geprüften Kauf- und Aktivierungsablaufs je Store"
+  ],
+  [
+    "These are roadmap items, not features included in the current version. No release date is promised.",
+    "Ce sont des chantiers de la feuille de route, pas des fonctions de la version actuelle. Aucune date de sortie n’est annoncée.",
+    "Son elementos de la hoja de ruta, no funciones de la versión actual. No se anuncia ninguna fecha de lanzamiento.",
+    "Sono elementi della roadmap, non funzioni della versione attuale. Non viene annunciata alcuna data di uscita.",
+    "Dit zijn roadmapplannen, geen functies van de huidige versie. Er wordt geen releasedatum beloofd.",
+    "Dies sind Roadmap-Vorhaben, keine Funktionen der aktuellen Version. Ein Veröffentlichungstermin wird nicht zugesagt."
+  ]
+]);
+
