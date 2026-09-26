@@ -1,0 +1,49 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "entretien",
+  "version": 1,
+  "name": "Entretien",
+  "description": "Historique et prochaine intervention d’un objet ou véhicule.",
+  "icon": "tool",
+  "color": "#D3E5DE",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "objet",
+      "label": "Objet ou véhicule",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "derniere",
+      "label": "Dernière intervention",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "prochaine",
+      "label": "Prochaine échéance",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "travaux",
+      "label": "Travaux effectués",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "contact",
+      "label": "Téléphone du prestataire",
+      "type": "phone",
+      "default": ""
+    },
+    {
+      "id": "factures",
+      "label": "Factures",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

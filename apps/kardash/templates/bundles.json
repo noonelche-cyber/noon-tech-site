@@ -1,0 +1,43 @@
+[
+  {
+    "id": "quotidien",
+    "title": "Everyday essentials",
+    "ids": [
+      "courses",
+      "tache",
+      "rendez-vous",
+      "colis",
+      "note"
+    ]
+  },
+  {
+    "id": "maison",
+    "title": "Home & equipment",
+    "ids": [
+      "entretien",
+      "mesures",
+      "etat-des-lieux",
+      "piscine",
+      "inventaire"
+    ]
+  },
+  {
+    "id": "complet",
+    "title": "The complete collection",
+    "ids": [
+      "recette",
+      "courses",
+      "tache",
+      "rendez-vous",
+      "colis",
+      "entretien",
+      "pret-objet",
+      "pret-argent",
+      "note",
+      "mesures",
+      "etat-des-lieux",
+      "piscine",
+      "inventaire"
+    ]
+  }
+]

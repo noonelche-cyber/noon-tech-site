@@ -1,0 +1,49 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "colis",
+  "version": 1,
+  "name": "Colis",
+  "description": "Transporteur et informations de suivi.",
+  "icon": "truck",
+  "color": "#EADAC7",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "transporteur",
+      "label": "Transporteur",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "numero",
+      "label": "Numéro de suivi",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "lien",
+      "label": "Lien de suivi",
+      "type": "web",
+      "default": ""
+    },
+    {
+      "id": "livraison",
+      "label": "Date prévue",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "etat",
+      "label": "État",
+      "type": "text",
+      "default": "En attente"
+    },
+    {
+      "id": "preuve",
+      "label": "Justificatif",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

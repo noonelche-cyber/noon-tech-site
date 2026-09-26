@@ -1,0 +1,43 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "tache",
+  "version": 1,
+  "name": "Tâche / rappel",
+  "description": "Organiser une tâche et son échéance. La répétition est une indication, sans alarme automatique.",
+  "icon": "calendar",
+  "color": "#E6DBF2",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "action",
+      "label": "À faire",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "echeance",
+      "label": "Échéance",
+      "type": "datetime-local",
+      "default": ""
+    },
+    {
+      "id": "repetition",
+      "label": "Répétition souhaitée",
+      "type": "text",
+      "default": "Aucune"
+    },
+    {
+      "id": "etat",
+      "label": "État",
+      "type": "text",
+      "default": "À faire"
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

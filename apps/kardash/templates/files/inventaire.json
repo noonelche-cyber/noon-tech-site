@@ -1,0 +1,49 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "inventaire",
+  "version": 1,
+  "name": "Inventaire du matériel",
+  "description": "Référence, quantité, emplacement et photo.",
+  "icon": "box",
+  "color": "#DCE1D0",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "materiel",
+      "label": "Matériel",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "reference",
+      "label": "Référence",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "quantite",
+      "label": "Quantité",
+      "type": "number",
+      "default": "1"
+    },
+    {
+      "id": "emplacement",
+      "label": "Emplacement",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "type": "photo",
+      "default": ""
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

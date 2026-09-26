@@ -1,0 +1,68 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "pret-objet",
+  "version": 1,
+  "name": "Prêt / emprunt d’objet",
+  "description": "Objet, personne, retour et rappel facultatif à 9 h.",
+  "icon": "people",
+  "color": "#CEDFEC",
+  "baseType": "loan",
+  "fields": [
+    {
+      "id": "objet",
+      "label": "Objet",
+      "type": "text",
+      "default": "",
+      "key": "loanitem"
+    },
+    {
+      "id": "sens",
+      "label": "Prêté / emprunté",
+      "type": "text",
+      "default": "lent",
+      "key": "loanmode"
+    },
+    {
+      "id": "personne",
+      "label": "Personne",
+      "type": "text",
+      "default": "",
+      "key": "name"
+    },
+    {
+      "id": "telephone",
+      "label": "Téléphone",
+      "type": "phone",
+      "default": "",
+      "key": "phone"
+    },
+    {
+      "id": "debut",
+      "label": "Date de début",
+      "type": "date",
+      "default": "",
+      "key": "startdate"
+    },
+    {
+      "id": "retour",
+      "label": "Retour prévu",
+      "type": "date",
+      "default": "",
+      "key": "returndate"
+    },
+    {
+      "id": "etat",
+      "label": "État",
+      "type": "text",
+      "default": "outstanding",
+      "key": "loanstatus"
+    },
+    {
+      "id": "photo",
+      "label": "Photo",
+      "type": "photo",
+      "default": ""
+    }
+  ]
+}

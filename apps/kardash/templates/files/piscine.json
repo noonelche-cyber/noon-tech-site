@@ -1,0 +1,55 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "piscine",
+  "version": 1,
+  "name": "Entretien piscine",
+  "description": "Relevés et interventions ; aucune recommandation de dosage automatique.",
+  "icon": "tool",
+  "color": "#CDE5EE",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "date",
+      "label": "Date",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "ph",
+      "label": "pH",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "chlore",
+      "label": "Chlore (mg/L)",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "temperature",
+      "label": "Température (°C)",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "travaux",
+      "label": "Intervention",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "prochaine",
+      "label": "Prochain entretien",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "type": "photo",
+      "default": ""
+    }
+  ]
+}

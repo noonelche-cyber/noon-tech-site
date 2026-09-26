@@ -1,0 +1,31 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "note",
+  "version": 1,
+  "name": "Note",
+  "description": "Texte rapide, photos et fichiers.",
+  "icon": "note",
+  "color": "#F3E7CF",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "texte",
+      "label": "Texte",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "type": "photo",
+      "default": ""
+    },
+    {
+      "id": "fichiers",
+      "label": "Fichiers",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "pret-argent",
+  "version": 1,
+  "name": "Prêt / emprunt d’argent",
+  "description": "Montant, taux annuel et échéances ; aucun calcul financier automatique.",
+  "icon": "coins",
+  "color": "#E7DFC7",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "personne",
+      "label": "Personne ou organisme",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "sens",
+      "label": "Prêté ou emprunté",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "montant",
+      "label": "Montant",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "devise",
+      "label": "Devise",
+      "type": "text",
+      "default": "EUR"
+    },
+    {
+      "id": "taux",
+      "label": "Taux annuel (%)",
+      "type": "number",
+      "default": "0"
+    },
+    {
+      "id": "duree",
+      "label": "Durée (mois)",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "mensualite",
+      "label": "Mensualité",
+      "type": "number",
+      "default": ""
+    },
+    {
+      "id": "debut",
+      "label": "Date de début",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "contrat",
+      "label": "Contrat",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

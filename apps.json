@@ -62,6 +62,14 @@
       "es"
     ],
     "languageScope": "bilingual content"
+  },
+  {
+    "id": "kardash",
+    "name": "KARD°ASH",
+    "description": "Organise, show and share your information. Start with a blank template and make it your own.",
+    "image": "kardash.png",
+    "store": null,
+    "page": "apps/kardash/",
+    "templates": "apps/kardash/templates/"
   }
 ]
-

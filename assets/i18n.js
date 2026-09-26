@@ -57,7 +57,7 @@
   dictionary.get('Las trampas del español.').en = 'The traps of Spanish.';
   const nodes = [];
   const walker = document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
-  while(walker.nextNode()) { const n=walker.currentNode; if(!n.parentElement.closest('script,style,option')) nodes.push([n,n.textContent]); }
+  while(walker.nextNode()) { const n=walker.currentNode; if(!n.parentElement.closest('script,style,option,[translate="no"]')) nodes.push([n,n.textContent]); }
   const attrs=[...document.querySelectorAll('[aria-label]')].map(e=>[e,e.getAttribute('aria-label')]);
   const title=document.title;
   const links=[...document.querySelectorAll('a[href]')].map(e=>[e,e.getAttribute('href')]);
@@ -68,8 +68,8 @@
     for(const [n,s] of nodes)n.textContent=translate(s,lang);
     for(const [e,s] of attrs)e.setAttribute('aria-label',translate(s,lang));
     document.title=translate(title,lang);
-    for(const e of document.querySelectorAll('[lang]:not(html)'))e.lang=lang;
-    for(const [a,href] of links){const u=new URL(href,location.href);if(u.origin===location.origin&&u.pathname.startsWith('/noon-tech-site/')||u.origin===location.origin&&location.hostname==='127.0.0.1'){u.searchParams.set('lang',lang);a.href=u.href;}}
+    for(const e of document.querySelectorAll('[lang]:not(html):not([translate="no"])'))e.lang=lang;
+    for(const [a,href] of links){const u=new URL(href,location.href);if(!a.hasAttribute('download') && (u.origin===location.origin&&u.pathname.startsWith('/noon-tech-site/')||u.origin===location.origin&&location.hostname==='127.0.0.1')){u.searchParams.set('lang',lang);a.href=u.href;}}
     document.querySelectorAll('.store a').forEach(a=>{const key=a.href.includes('play.google.com')?'Get it on Google Play ↗':'Download on the App Store ↗';a.textContent=translate(key,lang)});
   }
   const requested=new URL(location.href).searchParams.get('lang');

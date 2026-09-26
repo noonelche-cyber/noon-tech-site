@@ -1,0 +1,55 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "etat-des-lieux",
+  "version": 1,
+  "name": "État des lieux",
+  "description": "Pièce, état, observations et photos.",
+  "icon": "house",
+  "color": "#E6D6C6",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "type": "postaladdress",
+      "default": ""
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "type": "date",
+      "default": ""
+    },
+    {
+      "id": "piece",
+      "label": "Pièce",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "etat",
+      "label": "État",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "observations",
+      "label": "Observations",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "type": "photo",
+      "default": ""
+    },
+    {
+      "id": "rapport",
+      "label": "Rapport",
+      "type": "file",
+      "default": ""
+    }
+  ]
+}

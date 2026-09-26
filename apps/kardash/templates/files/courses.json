@@ -1,0 +1,38 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "courses",
+  "version": 1,
+  "name": "Courses",
+  "description": "Un article et sa quantité par ligne ; cases à cocher dans la Kard.",
+  "icon": "box",
+  "color": "#D8E7CD",
+  "baseType": "shopping",
+  "fields": [
+    {
+      "id": "articles",
+      "label": "Articles et quantités",
+      "type": "text",
+      "default": "",
+      "key": "shoppingitems"
+    },
+    {
+      "id": "photo",
+      "label": "Photo du produit",
+      "type": "photo",
+      "default": ""
+    },
+    {
+      "id": "magasin",
+      "label": "Magasin",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

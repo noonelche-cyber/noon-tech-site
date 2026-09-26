@@ -1,0 +1,73 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "recette",
+  "version": 1,
+  "name": "Recette de cuisine",
+  "description": "Photo, ingrédients, quantités et étapes.",
+  "icon": "cake",
+  "color": "#F4DEC2",
+  "baseType": "recipe",
+  "fields": [
+    {
+      "id": "photo",
+      "label": "Photo",
+      "type": "photo",
+      "default": ""
+    },
+    {
+      "id": "portions",
+      "label": "Portions",
+      "type": "number",
+      "default": "",
+      "key": "servings"
+    },
+    {
+      "id": "prep",
+      "label": "Préparation (min)",
+      "type": "number",
+      "default": "",
+      "key": "prepminutes"
+    },
+    {
+      "id": "cuisson",
+      "label": "Cuisson (min)",
+      "type": "number",
+      "default": "",
+      "key": "cookminutes"
+    },
+    {
+      "id": "temperature",
+      "label": "Température (°C)",
+      "type": "number",
+      "default": "",
+      "key": "temperature"
+    },
+    {
+      "id": "ingredients",
+      "label": "Ingrédients et quantités",
+      "type": "text",
+      "default": "",
+      "key": "ingredients"
+    },
+    {
+      "id": "etapes",
+      "label": "Étapes",
+      "type": "text",
+      "default": "",
+      "key": "steps"
+    },
+    {
+      "id": "source",
+      "label": "Source",
+      "type": "web",
+      "default": ""
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

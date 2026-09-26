@@ -1,0 +1,49 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "rendez-vous",
+  "version": 1,
+  "name": "Rendez-vous",
+  "description": "Date, heure, adresse, contact et documents.",
+  "icon": "calendar",
+  "color": "#CEDFEC",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "date",
+      "label": "Date et heure",
+      "type": "datetime-local",
+      "default": ""
+    },
+    {
+      "id": "lieu",
+      "label": "Adresse",
+      "type": "postaladdress",
+      "default": ""
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "telephone",
+      "label": "Téléphone",
+      "type": "phone",
+      "default": ""
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "type": "file",
+      "default": ""
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

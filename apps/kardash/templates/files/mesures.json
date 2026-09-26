@@ -1,0 +1,55 @@
+{
+  "format": "kardash-template",
+  "schemaVersion": 1,
+  "id": "mesures",
+  "version": 1,
+  "name": "Mesures / tailles",
+  "description": "Vêtements, chaussures ou dimensions d’un meuble.",
+  "icon": "tag",
+  "color": "#E5D8D0",
+  "baseType": "custom",
+  "fields": [
+    {
+      "id": "objet",
+      "label": "Personne ou objet",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "taille",
+      "label": "Taille",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "pointure",
+      "label": "Pointure",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "largeur",
+      "label": "Largeur et unité",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "hauteur",
+      "label": "Hauteur et unité",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "profondeur",
+      "label": "Profondeur et unité",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "type": "photo",
+      "default": ""
+    }
+  ]
+}
