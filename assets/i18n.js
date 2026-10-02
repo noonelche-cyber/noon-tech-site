@@ -35,7 +35,7 @@
     ['GitHub’s privacy statement','la déclaration de confidentialité de GitHub','la declaración de privacidad de GitHub'],['Contact by email','Contact par e-mail','Contacto por correo electrónico'],
     ['If you email NOON Tech, your email address and message are used to respond to your request. Please do not send passwords or sensitive personal information.','Si tu écris à NOON Tech, ton adresse e-mail et ton message servent à répondre à ta demande. N’envoie pas de mot de passe ni de données personnelles sensibles.','Si escribes a NOON Tech, tu dirección de correo y tu mensaje se utilizan para responder a tu solicitud. No envíes contraseñas ni información personal sensible.'],
     ['Our applications','Nos applications','Nuestras aplicaciones'],
-    ['This notice covers the website only. App-specific privacy information will be published here when available. For questions about ¡JODER!, VOSOTROS, DREK! or TRAMPA,','Cette notice concerne uniquement le site. Les informations de confidentialité propres aux apps seront publiées ici dès qu’elles seront disponibles. Pour toute question sur ¡JODER!, VOSOTROS, DREK! ou TRAMPA,','Este aviso solo se aplica al sitio web. La información de privacidad de cada app se publicará aquí cuando esté disponible. Si tienes preguntas sobre ¡JODER!, VOSOTROS, DREK! o TRAMPA,'],
+    ['This notice covers the website only. App-specific privacy information will be published here when available. For questions about ¡JODER!, VOSOTROS, ESpresiones or TRAMPA,','Cette notice concerne uniquement le site. Les informations de confidentialité propres aux apps seront publiées ici dès qu’elles seront disponibles. Pour toute question sur ¡JODER!, VOSOTROS, ESpresiones ou TRAMPA,','Este aviso solo se aplica al sitio web. La información de privacidad de cada app se publicará aquí cuando esté disponible. Si tienes preguntas sobre ¡JODER!, VOSOTROS, ESpresiones o TRAMPA,'],
     ['contact NOON Tech','contacte NOON Tech','contacta con NOON Tech'],['Updated 6 September 2026','Mis à jour le 6 septembre 2026','Actualizado el 6 de septiembre de 2026'],
     ['App-specific privacy information is being prepared.','Les informations de confidentialité de cette app sont en préparation.','La información de privacidad de esta app está en preparación.'],
     ['for information about the app’s data practices.','pour en savoir plus sur le traitement des données par l’app.','para conocer cómo trata los datos la app.'],['Website privacy notice','Confidentialité du site','Privacidad del sitio web'],
@@ -43,7 +43,7 @@
     ['Get it on Google Play ↗','Disponible sur Google Play ↗','Disponible en Google Play ↗'],['Download on the App Store ↗','Télécharger sur l’App Store ↗','Descargar en App Store ↗'],
     ['Page not found · NOON Tech','Page introuvable · NOON Tech','Página no encontrada · NOON Tech'],['Say hello. · NOON Tech','Contact · NOON Tech','Contacto · NOON Tech'],['Privacy. · NOON Tech','Confidentialité · NOON Tech','Privacidad · NOON Tech'],['Language, with a little attitude · NOON Tech','Les langues ont du caractère · NOON Tech','Idiomas con carácter · NOON Tech']
   ];
-  for (const name of ['¡JODER!','VOSOTROS','DREK!','TRAMPA']) {
+  for (const name of ['¡JODER!','VOSOTROS','ESpresiones','TRAMPA']) {
     rows.push([`Discover ${name}`,`Découvrir ${name}`,`Descubre ${name}`]);
     rows.push([`${name} privacy`,`${name} : confidentialité`,`${name}: privacidad`]);
     rows.push([`${name} privacy · NOON Tech`,`${name} : confidentialité · NOON Tech`,`${name}: privacidad · NOON Tech`]);

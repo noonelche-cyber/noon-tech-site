@@ -32,22 +32,23 @@
     "languageScope": "bilingual content"
   },
   {
-    "id": "drek",
-    "name": "DREK!",
-    "language": "Yiddish · Coming soon",
-    "tag": "Yiddish. The useful words first.",
-    "description": "A little language. A lot of character. Discover the words that say it best.",
-    "image": null,
+    "id": "espresiones",
+    "name": "ESpresiones",
+    "language": "Spanish · Expressions",
+    "tag": "Spanish expressions, beyond the literal.",
+    "description": "Understand expressions from Spain through their literal translation, meaning and examples. Save your favourites and discover an expression each day.",
+    "image": "espresiones.png",
     "store": null,
     "includedLanguages": [
+      "es",
       "fr",
       "en",
-      "es",
-      "de",
+      "nl",
       "it",
-      "nl"
+      "de",
+      "pt"
     ],
-    "languageScope": "interface"
+    "languageScope": "Spanish with 6 translation languages"
   },
   {
     "id": "trampa",

@@ -17,3 +17,5 @@ header{flex-wrap:wrap;padding:22px 0}.language-picker{display:flex;align-items:c
 
 /* Uniform template frames; all fields remain accessible inside the preview. */
 .template-card:has(.kard-preview)>h3{height:84px;line-height:28px;display:flex;align-items:center;margin:8px 0 12px}.kard-preview figcaption{height:33px}.mock-kard{height:480px;display:flex;flex-direction:column;overflow:hidden}.mock-top,.mock-title{flex-shrink:0}.mock-title{min-height:76px}.mock-kard dl{flex:1;min-height:0;overflow-y:auto;scrollbar-gutter:stable;padding-right:7px;overscroll-behavior:contain;scrollbar-color:#78736d transparent;scrollbar-width:thin}.mock-kard dl:focus-visible{outline:2px solid #242326;outline-offset:2px}.bundle{height:570px}.bundle ul{overflow-y:auto;min-height:0;flex:1;width:100%;padding-right:8px}.bundle h3{min-height:64px}.bundle .button{flex-shrink:0}
+
+.espresiones{background:#b8dfa9}.espresiones h3{font-size:clamp(30px,3.5vw,46px);overflow-wrap:anywhere}
