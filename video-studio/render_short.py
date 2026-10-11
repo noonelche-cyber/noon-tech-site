@@ -5,7 +5,7 @@ from xml.sax.saxutils import escape
 from PIL import Image, ImageDraw
 from prims import *
 import subs
-from episodes import EPISODES, SERIES, SUB, LOCALE
+from episodes import EPISODES, SERIES, SUB, LOCALE, END
 
 LANG, N = sys.argv[1], int(sys.argv[2])
 EP = next(e for e in EPISODES[LANG] if e['n'] == N)
@@ -53,7 +53,7 @@ if not os.path.exists(D + 'vo.wav'): tts()
 with wave.open(D + 'vo.wav') as w: VO = w.getnframes() / w.getframerate()
 LEAD = 0.15
 PH = [(a + LEAD, b + LEAD, t) for a, b, t in subs.timings(D + 'vo.wav', [p.lstrip('§') for p in EP['lines']])]
-TOTAL = VO + LEAD + 0.6
+TOTAL = VO + LEAD + 0.9
 T = [p[0] for p in PH]                       # start time of each phrase
 
 # ---------- assets ----------
@@ -73,7 +73,9 @@ MEAN = torn(MEAN_T.width + 60, MEAN_T.height + 20, CREAM, 71); MEAN.alpha_compos
 CTX = bubble(L[4], 50, emo='😅')
 LOGO = Image.open('assets/joder.png').convert('RGBA').resize((300, 300), Image.LANCZOS)
 m = Image.new('L', (300, 300), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 299, 299), 64, fill=255); LOGO.putalpha(m)
-CTA = strip(L[5], 58, col=YEL, seed=77, emo='📩')
+END1 = strip(END[LANG][0], 66, col=RED, fg=CREAM, seed=78)
+END2 = strip(END[LANG][1], 58, col=YEL, seed=77)
+END3 = strip(END[LANG][2], 62, seed=79, emo='📩')
 
 def frame(t):
     c = background(); d = ImageDraw.Draw(c)
@@ -92,7 +94,9 @@ def frame(t):
         u = t - T[5]
         paste(c, LOGO, W / 2, 840, pop(u, 0.3), rot=-4)
         rays(d, W / 2, 840, 12, 230, 290, CREAM, 3, 10)
-        paste(c, CTA, W / 2, 1140, pop(u - 0.15, 0.22), rot=2)
+        paste(c, END1, W / 2, 1080, pop(u - 0.15, 0.22), rot=-2)
+        paste(c, END2, W / 2, 1210, pop(u - 0.5, 0.22), rot=2)
+        paste(c, END3, W / 2, 1340, pop(u - 0.9, 0.22) * (1 + 0.05 * abs(math.sin(u * 5))), rot=-1)
     return zoom(c, 1 + 0.015 * t)
 
 if __name__ == '__main__':
