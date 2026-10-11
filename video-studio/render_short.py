@@ -9,14 +9,17 @@ from episodes import EPISODES, SERIES, SUB, LOCALE, END
 
 LANG, N = sys.argv[1], int(sys.argv[2])
 EP = next(e for e in EPISODES[LANG] if e['n'] == N)
-D = f'out/short/{LANG}{N}/'; os.makedirs(D, exist_ok=True)
-VOICE = 'es-ES-Ximena:DragonHDLatestNeural'
+VOICES = {'ximena': ('es-ES-Ximena:DragonHDLatestNeural', None), 'marta': ('es-ES-Marta:MAI-Voice-2.1', 'excited')}
+VKEY = os.environ.get('SHORT_VOICE', 'ximena'); VOICE, STYLE = VOICES[VKEY]
+SPEED = float(os.environ.get('SHORT_SPEED', '1.0'))
+D = f'out/short/{LANG}{N}{"" if (VKEY, SPEED) == ("ximena", 1.0) else f"_{VKEY}{SPEED:g}"}/'; os.makedirs(D, exist_ok=True)
 
 # ---------- voice ----------
 def synth(text, loc, out, voice=VOICE):
-    ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="{loc}">' +
+    ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="{loc}">' +
             (f'<voice name="{voice}">{escape(text)}</voice></speak>' if voice != VOICE else
-             f'<voice name="{voice}"><lang xml:lang="{loc}">{escape(text)}</lang></voice></speak>'))
+             f'<voice name="{voice}">' + (f'<mstts:express-as style="{STYLE}">' if STYLE else '') +
+             f'<lang xml:lang="{loc}">{escape(text)}</lang>' + ('</mstts:express-as>' if STYLE else '') + '</voice></speak>'))
     r = subprocess.run(['curl', '-sS', '-o', out, '-w', '%{http_code}', '-X', 'POST',
         'https://francecentral.tts.speech.microsoft.com/cognitiveservices/v1', '-H', 'Content-Type: application/ssml+xml',
         '-H', 'X-Microsoft-OutputFormat: riff-48khz-16bit-mono-pcm', '-H', 'User-Agent: noon-tiktok', '--data-binary', ssml.encode()],
@@ -46,7 +49,7 @@ def tts():
     subprocess.run(['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', chain + f'concat=n={len(files)}:v=0:a=1[a]', '-map', '[a]', D + 'raw.wav'], check=True)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', D + 'raw.wav', '-af',
         'silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_duration=0.25:stop_threshold=-42dB,'
-        'areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse', D + 'vo.wav'], check=True)
+        'areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse' + (f',atempo={SPEED}' if SPEED != 1.0 else ''), D + 'vo.wav'], check=True)
     print('runs:', runs)
 
 if not os.path.exists(D + 'vo.wav'): tts()
@@ -109,7 +112,7 @@ if __name__ == '__main__':
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', D + 'vo.wav', '-i', 'ding.wav', '-i', 'boom.wav', '-filter_complex',
         f'[0]adelay={ms(LEAD)}|{ms(LEAD)}[v];[1]adelay={ms(T[1])}|{ms(T[1])}[d];[2]adelay={ms(T[5])}|{ms(T[5])}[b];'
         f'[v][d][b]amix=inputs=3:normalize=0,alimiter=limit=0.95,apad[m]', '-map', '[m]', '-t', f'{TOTAL:.2f}', '-ac', '2', D + 'mix.wav'], check=True)
-    out = f'out/short/joder_short_{LANG}_{N}.mp4'
+    out = f'out/short/joder_short_{LANG}_{N}' + D.rstrip('/').split(f'{LANG}{N}')[1] + '.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', D + 'video.mp4', '-i', D + 'mix.wav', '-c:v', 'libx264', '-b:v', '5M', '-maxrate', '6M',
                     '-bufsize', '10M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], check=True)
     print(out, f'{TOTAL:.1f}s')
