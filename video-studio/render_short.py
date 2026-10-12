@@ -11,8 +11,8 @@ LANG, N = sys.argv[1], int(sys.argv[2])
 EP = next(e for e in EPISODES[LANG] if e['n'] == N)
 VOICES = {'ximena': ('es-ES-Ximena:DragonHDLatestNeural', None), 'marta': ('es-ES-Marta:MAI-Voice-2.1', 'excited')}
 VKEY = os.environ.get('SHORT_VOICE', 'ximena'); VOICE, STYLE = VOICES[VKEY]
-SPEED = float(os.environ.get('SHORT_SPEED', '1.0'))
-D = f'out/short/{LANG}{N}{"" if (VKEY, SPEED) == ("ximena", 1.0) else f"_{VKEY}{SPEED:g}"}/'; os.makedirs(D, exist_ok=True)
+SPEED = float(os.environ.get('SHORT_SPEED', '1.12'))   # validated: Ximena +12% (livelier)
+D = f'out/short/{LANG}{N}{"" if (VKEY, SPEED) == ("ximena", 1.12) else f"_{VKEY}{SPEED:g}"}/'; os.makedirs(D, exist_ok=True)
 
 # ---------- voice ----------
 def synth(text, loc, out, voice=VOICE):
@@ -61,6 +61,10 @@ T = [p[0] for p in PH]                       # start time of each phrase
 
 # ---------- assets ----------
 L = EP['lines']; word = L[1].lstrip('§')
+SOFT = {'chie': 'ch*e', 'putain': 'p*tain', 'couilles': 'c*uilles', 'crap': 'cr*p'}
+def soft(s):
+    for a, b in SOFT.items(): s = s.replace(a, b)
+    return s
 HEAD = strip(f"{SERIES[LANG]} #{N}", 56, col=RED, fg=CREAM, seed=5)
 SUBT = txt(SUB[LANG], font(BANG, 48), CREAM)
 HOOK = strip(L[0], 58, seed=11)
@@ -70,8 +74,8 @@ def word_card():
     card.alpha_composite(t, (24 + 40, 24 + 30)); sp = speaker(52); card.alpha_composite(sp, (card.width - sp.width - 40, 24 + 28))
     return card
 CARD = word_card(); UNDER = [torn(760, 260, YEL, 41), torn(760, 260, CYAN, 42)]
-LIT = strip(L[2], 60, seed=61, emo=EP['emo'])
-MEAN_T = fit(L[3], BRUSH, 96, 900, fill=RED)
+LIT = strip(soft(L[2]), 60, seed=61, emo=EP['emo'])
+MEAN_T = fit(soft(L[3]), BRUSH, 96, 900, fill=RED)
 MEAN = torn(MEAN_T.width + 60, MEAN_T.height + 20, CREAM, 71); MEAN.alpha_composite(MEAN_T, (24 + 30, 24 + 10))
 CTX = bubble(L[4], 50, emo='😅')
 LOGO = Image.open('assets/joder.png').convert('RGBA').resize((300, 300), Image.LANCZOS)
@@ -83,13 +87,13 @@ END3 = strip(END[LANG][2], 62, seed=79, emo='📩')
 def frame(t):
     c = background(); d = ImageDraw.Draw(c)
     # series header: there from frame 1
-    paste(c, HEAD, W / 2, 300, pop(t, 0.25), rot=-3); paste(c, SUBT, W / 2, 395, a=fade(t - 0.2, 0.3), rot=-3)
+    paste(c, HEAD, W / 2, 300, rot=-3); paste(c, SUBT, W / 2, 395, rot=-3)
     if t < T[5]:
-        paste(c, HOOK, W / 2, 560, pop(t - 0.05, 0.22), rot=2)
+        paste(c, HOOK, W / 2, 560, rot=2)
         # the Spanish word is on screen from the very start; it punches again when it is spoken
-        paste(c, UNDER[0], W / 2 + 10, 830, pop(t - 0.1) * 1.02, rot=6); paste(c, UNDER[1], W / 2 - 10, 820, pop(t - 0.1), rot=-4)
+        paste(c, UNDER[0], W / 2 + 10, 830, 1.02, rot=6); paste(c, UNDER[1], W / 2 - 10, 820, rot=-4)
         pulse = 1 + 0.12 * max(0, 1 - abs(t - T[1] - 0.1) / 0.18)
-        paste(c, CARD, W / 2, 810, pop(t - 0.15) * pulse, rot=-3)
+        paste(c, CARD, W / 2, 810, pulse, rot=-3)
         if t > T[2]: paste(c, LIT, W / 2, 1090, pop(t - T[2], 0.22), rot=-2)
         if t > T[3]: paste(c, MEAN, W / 2, 1260, pop(t - T[3], 0.22), rot=2)
         if t > T[4]: paste(c, CTX, W / 2 + 30, 1460, pop(t - T[4], 0.22), rot=-3)
